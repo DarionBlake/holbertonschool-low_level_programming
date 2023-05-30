@@ -2,11 +2,12 @@
 
 /**
  * main - entry point
- * 
+ *
  * return: always 0 (success)
  */
 
-int main() {
+int main() 
+{
 	puts("\"Programming is like building a multilingual puzzle");
-	return 0;
+	return (0);
 }
