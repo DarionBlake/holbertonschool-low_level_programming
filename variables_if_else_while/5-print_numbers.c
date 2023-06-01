@@ -2,6 +2,7 @@
 /**
  * main - entry point
  * Return: always 0 (success)
+ *
  */
 int main(void)
 {
@@ -9,7 +10,7 @@ int main(void)
 
 	for (i = 0; i <= 9; i++)
 	{
-		  printf("%d\n", i);
+		printf("%d\n", i);
 	}
 	return (0);
 }
