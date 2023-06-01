@@ -7,6 +7,7 @@
 int main(void)
 {
 	int i;
+
 	for (i = 0; i <= 0xf; i++)
 	{
 		putchar('0' + i);
