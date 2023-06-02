@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main - entry point
+ * main - tprint all possible  combinations of single int and void
  * Return: always 0 (success)
  *
  */
