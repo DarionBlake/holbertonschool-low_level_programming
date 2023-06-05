@@ -3,7 +3,8 @@
 
 /**
  * mul - check the code.
- * @c: interger value
+ * @a: interger value
+ * @b: interger value
  * Return: Always 0.
  */
 
