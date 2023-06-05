@@ -1,32 +1,17 @@
 #include "main.h"
 
-int _isupper(int c)
+/**
+ * print_numbers - prints 0 to 9
+ *
+ * Return: void
+ */
+void print_numbers(void)
 {
-	if (c >= 'A' && c <= 'Z')
-	{	
-	return (1);
-	}
-	else
-	{
-    return (0);
-	}
-}
+	int i;
 
-int main(void)
-{
-	int c;
-
-	/* Get the character from the user*/
-	// printf("Enter a character: ");
-	// scanf("%c", &c);
-
-	if (_isupper(c))
+	for (i = 0; i <= 9; i++)
 	{
-	printf("The character is uppercase.\n");
+		_putchar('0' + i);
 	}
-	else
-	{
-		printf("The character is not uppercase.\n");
-	}
-	return (0);
+	_putchar('\n');
 }
