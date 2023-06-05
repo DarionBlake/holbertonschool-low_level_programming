@@ -1,9 +1,7 @@
 #ifndef MAIN_H
 #define MAIN_H
 
-// Function prototypes
+/* Function prototypes */
 int _isupper(int c);
-
-int main(void);
-
-#endif // MAIN_H
+int _putchar(char c);
+#endif
