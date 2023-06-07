@@ -1,18 +1,23 @@
-void print_alphabet_x10(void)
+#include "main.h"
 
 /**
- * main - tprint all possible  combinations of single int and void
- * Return: always 0 (success)
+ * main - check the code.
  *
+ * Return: Always 0.
  */
-
+int main(void)
 {
-	for (int i = 0; i < 10; i++)
+	print_alphabet_x10();
+	return (0);
+}
+	int = i;
+
+	for (i = 0; i < 10; i++)
 	{
 		for (char c = 'a'; c <= 'z'; c++)
 		{
 			_putchar(c);
 		}
-		_putchar('\n');
+			_putchar('\n');
 	}
 }
