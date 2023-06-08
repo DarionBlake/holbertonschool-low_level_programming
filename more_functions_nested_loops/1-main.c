@@ -1,9 +1,6 @@
-<<<<<<< HEAD
 #include "main.h"
 #include <stdio.h>
 
-=======
->>>>>>> 30111ab92e8f1827d0ebba4127d4a5723a4795c4
 /**
  * main - check the code
  *
@@ -11,9 +8,11 @@
  */
 int main(void)
 {
-    int n;
+    char c;
 
-    n = add(89, 9);
-    printf("%d\n", n);
+    c = '0';
+    printf("%c: %d\n", c, _isdigit(c));
+    c = 'a';
+    printf("%c: %d\n", c, _isdigit(c));
     return (0);
 }

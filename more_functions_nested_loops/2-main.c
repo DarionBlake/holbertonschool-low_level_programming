@@ -1,9 +1,6 @@
-<<<<<<< HEAD
 #include "main.h"
 #include <stdio.h>
 
-=======
->>>>>>> 30111ab92e8f1827d0ebba4127d4a5723a4795c4
 /**
  * main - check the code
  *
@@ -11,9 +8,7 @@
  */
 int main(void)
 {
-    int n;
-
-    n = add(89, 9);
-    printf("%d\n", n);
+    printf("%d\n", mul(98, 1024));
+    printf("%d\n", mul(-402, 4096));
     return (0);
 }
