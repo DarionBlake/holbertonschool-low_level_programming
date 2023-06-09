@@ -1,9 +1,6 @@
-<<<<<<< HEAD
 #include "main.h"
 #include <stdio.h>
 
-=======
->>>>>>> 30111ab92e8f1827d0ebba4127d4a5723a4795c4
 /**
  * main - check the code
  *
@@ -11,9 +8,10 @@
  */
 int main(void)
 {
-    int n;
+    char s[10] = "My School";
 
-    n = add(89, 9);
-    printf("%d\n", n);
+    printf("%s\n", s);
+    rev_string(s);
+    printf("%s\n", s);
     return (0);
 }
