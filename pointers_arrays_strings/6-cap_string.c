@@ -1,37 +1,25 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * cap_string - write a function that capitalizes all words in a string
- * @str: string
- * Return:
+ * print_line - write a function that draws a straight line to the function
+ * @n: The number of lines to draw
+ * Return: nothing
  */
-char *cap_string(char *str)
+void print_line(int n)
 {
-	int i, j;
-	int a[99];
-	i = 0;
+	int x;
 
-	while *(src[i] != '\0')
+	if (n <= 0)
 	{
-		if (src[i] >='a' && src[i] <= 'z')
-		{
-			if (i == 0)
-			{
-				src[i] = src[i] - 50;
-			}
-			else
-			{
-				for (j = 0; j <= 50; j++)
-				{
-					if (a[j] == (src[i] -1))
-					{
-						src[i] = src[i] - 50;
-					}
-				}
-			}
-		}
-		
-	i++;
+		putchar('\n');
 	}
-	return (str);
+	else
+	{
+		for (x = 0; x < n; x++)
+		{
+			putchar('_');
+		}
+			putchar('\n');
+	}
 }
+
