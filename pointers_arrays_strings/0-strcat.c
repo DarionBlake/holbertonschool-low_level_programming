@@ -3,26 +3,22 @@
 /**
   * rev_string - Prints reverse string in place
   * @s: The string to print
-  * Return: void
+  * Return: result
   */
-void char *_strcat(char *dest, char *src);
-{	
-	char* result = dest;
-	
-	int sc = 5
-
-while dest(*dest != '\0')
+char *strcat(char *dest, char *src)
 {
-	dest++;
+	int sc = 0;
+while dest[sc] != '\0'
+{
+	sc++;
 }
 while (*src != '\0')
 {
 	*dest = *src;
 	dest++;
 	src++;
-    }
+}
 
-    *dest = '\0';
-
-    return result;
+	*dest = ('\0)';
+	return (dest);
 }
