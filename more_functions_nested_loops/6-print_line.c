@@ -1,13 +1,22 @@
+#include "main.h"
 #include <stdio.h>
+#include <unistd.h>
+/**
+ * more_numbers - prints 0 to 9
+ *
+ * Return: 0
+ */
 
-void print_line(int n)
+void int_line(int n)
 
-{
+	
+	int i, n;
+
 	if (n <= 0)
 	{
 		putchar('\n');
 	}
-	for (int i = 0; i < n; i++)
+	for (i = 0; i < n; i++)
 	{
 		putchar('_');
 	}
